@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+// font-family: "Inter", sans-serif;
+// font-optical-sizing: auto;
+// font-weight: <weight>;
+// font-style: normal;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  transition: all 0.4s ease-in-out;
+}
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 8px;
+}
+h3 {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h4 {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 590;
+  line-height: normal;
+}
+span {
+  overflow: hidden;
+  color: #717680;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.img-product {
+  width: 50px;
+  height: 50px;
+}
+
+.container-book {
+  display: flex;
+  flex-direction: column;
+}
+.delete-view {
+  // display: none;
+}
+.set-btn {
+  // display: none;
+  button {
+    // display: none;
+  }
+}
