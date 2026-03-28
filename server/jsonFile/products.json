@@ -1,0 +1,778 @@
+[
+  {
+    "id": 1,
+    "title": "Sac Birkin 35",
+    "brand": "Hermès",
+    "category": "sacs",
+    "price": 12500,
+    "currency": "EUR",
+    "stock": 3,
+    "description_txt": "Sac iconique en cuir Togo noir avec quincaillerie dorée.",
+    "picture": "/assets/hermes-birkin-35-cm-en-cuir.webp",
+    "tags": ["sac", "cuir", "iconique"],
+    "ref": "HM-BK35",
+    "sizes": [],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Gold (quincaillerie)", "hex": "#C9A84C" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sneakers Triple S",
+    "brand": "Balenciaga",
+    "category": "chaussures",
+    "price": 850,
+    "currency": "EUR",
+    "stock": 15,
+    "description_txt": "Sneakers oversized emblématiques en mesh et cuir.",
+    "picture": "/assets/balenciaga-sneakers-triple-s.webp",
+    "tags": ["sneakers", "streetwear", "chunky"],
+    "ref": "BAL-TS",
+    "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "colors": [
+      { "name": "Blanc cassé", "hex": "#F5F0EB" },
+      { "name": "Gris clair", "hex": "#C8C4C0" },
+      { "name": "Rouge", "hex": "#C1001F" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mocassins Horsebit 1953",
+    "brand": "Gucci",
+    "category": "chaussures",
+    "price": 750,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Mocassins en cuir lisse avec détail horsebit doré signature.",
+    "picture": "/assets/gucci-mocassins-horsebit-1953.webp",
+    "tags": ["mocassins", "cuir", "classique"],
+    "ref": "GU-HB53",
+    "sizes": ["38", "39", "40", "41", "42", "43", "44", "45"],
+    "colors": [
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Or (horsebit)", "hex": "#C9A84C" },
+      { "name": "Marron", "hex": "#6B3A2A" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ceinture MC Monogram",
+    "brand": "Louis Vuitton",
+    "category": "accessoires",
+    "price": 420,
+    "currency": "EUR",
+    "stock": 20,
+    "description_txt": "Ceinture en toile monogram avec boucle LV dorée.",
+    "picture": "/assets/louis-vuitton-ceinture-mC-monogram.webp",
+    "tags": ["ceinture", "monogram", "accessoire"],
+    "ref": "LV-CEIN",
+    "sizes": ["75cm", "80cm", "85cm", "90cm", "95cm", "100cm", "105cm"],
+    "colors": [
+      { "name": "Marron monogram", "hex": "#7B4B2A" },
+      { "name": "Or (boucle)", "hex": "#C9A84C" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lunettes de soleil Aviator",
+    "brand": "Tom Ford",
+    "category": "accessoires",
+    "price": 390,
+    "currency": "EUR",
+    "stock": 12,
+    "description_txt": "Lunettes aviateur en métal doré avec verres gris dégradés.",
+    "picture": "/assets/tom-ford-lunettes-de-soleil-aviator.webp",
+    "tags": ["lunettes", "aviateur", "soleil"],
+    "ref": "TF-AVI",
+    "sizes": [],
+    "colors": [
+      { "name": "Or (monture)", "hex": "#C9A84C" },
+      { "name": "Gris dégradé (verres)", "hex": "#707070" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Veste Tuxedo Slim",
+    "brand": "Saint Laurent",
+    "category": "vetements",
+    "price": 2900,
+    "currency": "EUR",
+    "stock": 5,
+    "description_txt": "Veste tuxedo slim en laine noire avec revers satin.",
+    "picture": "/assets/saint-laurent-veste-tuxedo-slim.webp",
+    "tags": ["veste", "tuxedo", "soiree"],
+    "ref": "YSL-TUX",
+    "sizes": ["44", "46", "48", "50", "52", "54"],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Noir satin (revers)", "hex": "#1A1A1A" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sac Lady Dior Medium",
+    "brand": "Dior",
+    "category": "sacs",
+    "price": 5500,
+    "currency": "EUR",
+    "stock": 6,
+    "description_txt": "Sac Lady Dior en cuir cannage noir avec breloques CD.",
+    "picture": "/assets/dior-sac-lady-dior-medium.webp",
+    "tags": ["sac", "cannage", "iconique"],
+    "ref": "DI-LADY",
+    "sizes": [],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Or (breloques)", "hex": "#C9A84C" },
+      { "name": "Rose poudré", "hex": "#E8B4B8" },
+      { "name": "Rouge", "hex": "#A0152B" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bottines Chelsea",
+    "brand": "Bottega Veneta",
+    "category": "chaussures",
+    "price": 1150,
+    "currency": "EUR",
+    "stock": 9,
+    "description_txt": "Bottines Chelsea en cuir intrecciato vert bouteille.",
+    "picture": "/assets/bottega-veneta-bottines-chelsea.webp",
+    "tags": ["bottines", "intrecciato", "cuir"],
+    "ref": "BV-CHEL",
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "colors": [
+      { "name": "Vert bouteille", "hex": "#2D4A3E" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Caramel", "hex": "#C68B59" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Écharpe Cachemire Classic",
+    "brand": "Burberry",
+    "category": "accessoires",
+    "price": 650,
+    "currency": "EUR",
+    "stock": 25,
+    "description_txt": "Écharpe en cachemire pur avec motif check iconique.",
+    "picture": "/assets/burberry-echarpe-cachemire-classic.webp",
+    "tags": ["echarpe", "cachemire", "check"],
+    "ref": "BB-ECHA",
+    "sizes": [],
+    "colors": [
+      { "name": "Camel", "hex": "#C19A6B" },
+      { "name": "Rouge bordeaux", "hex": "#722F37" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Beige", "hex": "#E8D5B5" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Manteau Camel Hair",
+    "brand": "Max Mara",
+    "category": "vetements",
+    "price": 3200,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Manteau oversize en poil de chameau, coupe droite intemporelle.",
+    "picture": "/assets/max-mara-manteau-camel-hair.webp",
+    "tags": ["manteau", "camel", "oversize"],
+    "ref": "MM-CAME",
+    "sizes": ["34", "36", "38", "40", "42", "44", "46"],
+    "colors": [
+      { "name": "Camel", "hex": "#C19A6B" },
+      { "name": "Ivoire", "hex": "#F5F0E8" },
+      { "name": "Noir", "hex": "#1A1A1A" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Sac Kelly 28",
+    "brand": "Hermès",
+    "category": "sacs",
+    "price": 9800,
+    "currency": "EUR",
+    "stock": 2,
+    "description_txt": "Sac Kelly 28 en cuir Epsom fauve avec quincaillerie palladium.",
+    "picture": "/assets/hermes-sac-kelly-28.webp",
+    "tags": ["sac", "cuir", "iconique"],
+    "ref": "HM-KL28",
+    "sizes": [],
+    "colors": [
+      { "name": "Fauve", "hex": "#B5651D" },
+      { "name": "Palladium (quincaillerie)", "hex": "#C0C0C0" },
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Rouge H", "hex": "#8B0000" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Sac Chanel 2.55 Classic Flap",
+    "brand": "Chanel",
+    "category": "sacs",
+    "price": 8900,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Sac à rabat en cuir matelassé noir avec chaîne dorée entrelacée.",
+    "picture": "/assets/chanel-sac-chanel-2.55-classic-flap.webp",
+    "tags": ["sac", "matelasse", "iconique"],
+    "ref": "CH-255",
+    "sizes": [],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Or (chaîne)", "hex": "#C9A84C" },
+      { "name": "Beige", "hex": "#D4B896" },
+      { "name": "Rouge", "hex": "#A0152B" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Tote Neverfull MM",
+    "brand": "Louis Vuitton",
+    "category": "sacs",
+    "price": 1650,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Tote bag en toile Monogram avec intérieur rayé bordeaux.",
+    "picture": "/assets/louis-vuitton-tote-neverfull-mm.webp",
+    "tags": ["tote", "monogram", "pratique"],
+    "ref": "LV-NEVR",
+    "sizes": [],
+    "colors": [
+      { "name": "Marron monogram", "hex": "#7B4B2A" },
+      { "name": "Bordeaux (intérieur)", "hex": "#722F37" },
+      { "name": "Rose (intérieur)", "hex": "#E8B4B8" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Sac Saddle",
+    "brand": "Dior",
+    "category": "sacs",
+    "price": 3200,
+    "currency": "EUR",
+    "stock": 5,
+    "description_txt": "Sac Saddle en cuir de veau oblique bleu avec broderie CD.",
+    "picture": "/assets/dior-sac-saddle.webp",
+    "tags": ["sac", "oblique", "iconique"],
+    "ref": "DI-SADL",
+    "sizes": [],
+    "colors": [
+      { "name": "Bleu oblique", "hex": "#2C3E7A" },
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Blanc", "hex": "#F5F5F5" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Mini Bag Cassette",
+    "brand": "Bottega Veneta",
+    "category": "sacs",
+    "price": 2400,
+    "currency": "EUR",
+    "stock": 7,
+    "description_txt": "Mini sac en cuir intrecciato caramel avec bandoulière réglable.",
+    "picture": "/assets/bottega-venetta-mini-bag-cassette.webp",
+    "tags": ["sac", "intrecciato", "mini"],
+    "ref": "BV-CASS",
+    "sizes": [],
+    "colors": [
+      { "name": "Caramel", "hex": "#C68B59" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Vert bouteille", "hex": "#2D4A3E" },
+      { "name": "Blanc cassé", "hex": "#F5F0EB" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Sac Hobo Dionysus",
+    "brand": "Gucci",
+    "category": "sacs",
+    "price": 2800,
+    "currency": "EUR",
+    "stock": 6,
+    "description_txt": "Sac hobo en toile GG Supreme avec fermeture tête de tigre.",
+    "picture": "/assets/gucci-sac-hobo-dionysus.webp",
+    "tags": ["sac", "gg", "hobo"],
+    "ref": "GU-DION",
+    "sizes": [],
+    "colors": [
+      { "name": "Beige GG", "hex": "#C8A96E" },
+      { "name": "Marron", "hex": "#6B3A2A" },
+      { "name": "Noir", "hex": "#1A1A1A" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Escarpins So Kate 120mm",
+    "brand": "Christian Louboutin",
+    "category": "chaussures",
+    "price": 720,
+    "currency": "EUR",
+    "stock": 11,
+    "description_txt": "Escarpins nude en cuir verni avec semelle rouge signature et talon aiguille 120 mm.",
+    "picture": "/assets/christian-louboutin-escarpins-so-kate-120mm.webp",
+    "tags": ["escarpins", "talon", "rouge"],
+    "ref": "CL-KATE",
+    "sizes": [
+      "34",
+      "34.5",
+      "35",
+      "35.5",
+      "36",
+      "36.5",
+      "37",
+      "37.5",
+      "38",
+      "38.5",
+      "39",
+      "39.5",
+      "40",
+      "40.5",
+      "41"
+    ],
+    "colors": [
+      { "name": "Nude", "hex": "#E3C4A8" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Rouge (semelle)", "hex": "#BF0020" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Derbies Balmoral",
+    "brand": "John Lobb",
+    "category": "chaussures",
+    "price": 1450,
+    "currency": "EUR",
+    "stock": 6,
+    "description_txt": "Derbies en cuir box calf marron cerise, semelle cuir cousue Goodyear.",
+    "picture": "/assets/john-lobb-derbies-balmoral.webp",
+    "tags": ["derbies", "cuir", "classique"],
+    "ref": "JL-BALM",
+    "sizes": ["39", "40", "41", "42", "43", "44", "45", "46"],
+    "colors": [
+      { "name": "Marron cerise", "hex": "#722B3A" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Tan", "hex": "#C4874F" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sneakers New Balance 990v6",
+    "brand": "New Balance",
+    "category": "chaussures",
+    "price": 230,
+    "currency": "EUR",
+    "stock": 30,
+    "description_txt": "Sneakers made in USA en daim gris avec semelle ENCAP pour un amorti optimal.",
+    "picture": "/assets/new-balance-sneakers-new-balance-990v6.webp",
+    "tags": ["sneakers", "running", "daim"],
+    "ref": "NB-990",
+    "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "colors": [
+      { "name": "Gris", "hex": "#8A8A8A" },
+      { "name": "Blanc", "hex": "#F5F5F5" },
+      { "name": "Marine", "hex": "#1B2A4A" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Mules Fur Slide",
+    "brand": "Gucci",
+    "category": "chaussures",
+    "price": 680,
+    "currency": "EUR",
+    "stock": 9,
+    "description_txt": "Mules en fourrure synthétique beige avec logo Gucci brodé.",
+    "picture": "/assets/gucci-mules-fur-slide.webp",
+    "tags": ["mules", "fourrure", "logo"],
+    "ref": "GU-FURS",
+    "sizes": ["35", "36", "37", "38", "39", "40", "41"],
+    "colors": [
+      { "name": "Beige", "hex": "#D4C5A9" },
+      { "name": "Ivoire", "hex": "#F5F0E8" },
+      { "name": "Noir", "hex": "#1A1A1A" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Bottes Cavalière Equestrian",
+    "brand": "Hermès",
+    "category": "chaussures",
+    "price": 2200,
+    "currency": "EUR",
+    "stock": 3,
+    "description_txt": "Bottes cavalières en cuir noir avec zip intérieur discret et talon bloc.",
+    "picture": "/assets/hermes-bottes-cavaliere-equestrian.webp",
+    "tags": ["bottes", "cuir", "cavalier"],
+    "ref": "HM-BOOT",
+    "sizes": ["36", "37", "38", "39", "40", "41"],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Marron", "hex": "#6B3A2A" }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Blazer Oversize",
+    "brand": "Balenciaga",
+    "category": "vetements",
+    "price": 1980,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Blazer oversize en laine vierge noire avec épaules structurées.",
+    "picture": "/assets/balenciaga-blazer-oversize.webp",
+    "tags": ["blazer", "oversize", "laine"],
+    "ref": "BAL-BLZ",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Gris anthracite", "hex": "#3A3A3A" },
+      { "name": "Blanc", "hex": "#F5F5F5" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Trench-Coat Heritage",
+    "brand": "Burberry",
+    "category": "vetements",
+    "price": 2150,
+    "currency": "EUR",
+    "stock": 7,
+    "description_txt": "Trench-coat classique en coton gabardine beige avec doublure check.",
+    "picture": "/assets/burberry-trench-coat-heritage.webp",
+    "tags": ["trench", "gabardine", "classique"],
+    "ref": "BB-TREN",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      { "name": "Beige honey", "hex": "#C19A6B" },
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Kaki", "hex": "#6B7355" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Robe Bustier Sculptée",
+    "brand": "Versace",
+    "category": "vetements",
+    "price": 3400,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Robe bustier en crêpe ivoire avec détails dorés et coupe sculptée.",
+    "picture": "/assets/versace-robe-bustier-sculptée.webp",
+    "tags": ["robe", "bustier", "soiree"],
+    "ref": "VER-BUST",
+    "sizes": ["34", "36", "38", "40", "42", "44"],
+    "colors": [
+      { "name": "Ivoire", "hex": "#F5F0E8" },
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Or (détails)", "hex": "#C9A84C" }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Pull Col Roulé Cachemire",
+    "brand": "Loro Piana",
+    "category": "vetements",
+    "price": 1250,
+    "currency": "EUR",
+    "stock": 14,
+    "description_txt": "Pull col roulé en cachemire extra-fin couleur camel, douceur incomparable.",
+    "picture": "/assets/loro-piana-pull-col-roule-cachemire.webp",
+    "tags": ["pull", "cachemire", "col-roule"],
+    "ref": "LP-PULL",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      { "name": "Camel", "hex": "#C19A6B" },
+      { "name": "Ivory", "hex": "#F5F0E8" },
+      { "name": "Navy", "hex": "#1B2A4A" },
+      { "name": "Bordeaux", "hex": "#722F37" },
+      { "name": "Gris chiné", "hex": "#9B9B9B" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Jean Slim Taille Haute",
+    "brand": "Frame",
+    "category": "vetements",
+    "price": 290,
+    "currency": "EUR",
+    "stock": 22,
+    "description_txt": "Jean slim taille haute en denim indigo selvedge, coupe ajustée sur la cheville.",
+    "picture": "/assets/frame-jean-slim-taille-haute.webp",
+    "tags": ["jean", "slim", "denim"],
+    "ref": "FR-JEAN",
+    "sizes": ["24", "25", "26", "27", "28", "29", "30", "31", "32"],
+    "colors": [
+      { "name": "Indigo", "hex": "#2B3A67" },
+      { "name": "Noir", "hex": "#1A1A1A" },
+      { "name": "Blanc", "hex": "#F5F5F5" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Chemise Oxford Classique",
+    "brand": "Charvet",
+    "category": "vetements",
+    "price": 480,
+    "currency": "EUR",
+    "stock": 18,
+    "description_txt": "Chemise en oxford de coton bleu ciel avec col semi-spread, confectionnée Place Vendôme.",
+    "picture": "/assets/charvet-chemise-oxford-classique.webp",
+    "tags": ["chemise", "oxford", "classique"],
+    "ref": "CH-OXFO",
+    "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "colors": [
+      { "name": "Bleu ciel", "hex": "#87CEEB" },
+      { "name": "Blanc", "hex": "#F5F5F5" },
+      { "name": "Bleu marine", "hex": "#1B2A4A" },
+      { "name": "Rose poudré", "hex": "#E8B4B8" }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Montre Nautilus 5711",
+    "brand": "Patek Philippe",
+    "category": "montres",
+    "price": 85000,
+    "currency": "EUR",
+    "stock": 1,
+    "description_txt": "Montre sportive chic en acier avec cadran bleu et bracelet intégré, mouvement automatique.",
+    "picture": "/assets/patek-philippe-montre-nautilus-5711.webp",
+    "tags": ["montre", "acier", "automatique"],
+    "ref": "PP-5711",
+    "sizes": ["40mm"],
+    "colors": [
+      { "name": "Bleu ardoise (cadran)", "hex": "#4A6895" },
+      { "name": "Acier (boîtier)", "hex": "#C0C0C0" }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Montre Royal Oak 15500",
+    "brand": "Audemars Piguet",
+    "category": "montres",
+    "price": 42000,
+    "currency": "EUR",
+    "stock": 2,
+    "description_txt": "Montre iconique en acier avec cadran 'Grande Tapisserie', lunette octogonale à vis.",
+    "picture": "/assets/audemars-piguet-montre-royal-oak-15500.webp",
+    "tags": ["montre", "acier", "iconique"],
+    "ref": "AP-1550",
+    "sizes": ["41mm"],
+    "colors": [
+      { "name": "Bleu (cadran)", "hex": "#2A4A8A" },
+      { "name": "Gris (cadran)", "hex": "#6E7E8C" },
+      { "name": "Acier (boîtier)", "hex": "#C0C0C0" }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Montre Submariner Date",
+    "brand": "Rolex",
+    "category": "montres",
+    "price": 14500,
+    "currency": "EUR",
+    "stock": 3,
+    "description_txt": "Montre plongée en Oystersteel avec lunette céramique noire et bracelet Oyster.",
+    "picture": "/assets/rolex-montre-submariner-date.webp",
+    "tags": ["montre", "plongee", "acier"],
+    "ref": "RX-SUBM",
+    "sizes": ["41mm"],
+    "colors": [
+      { "name": "Noir (lunette)", "hex": "#1A1A1A" },
+      { "name": "Acier (boîtier)", "hex": "#C0C0C0" },
+      { "name": "Noir (cadran)", "hex": "#0D0D0D" }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Bracelet Jonc Love",
+    "brand": "Cartier",
+    "category": "bijoux",
+    "price": 6800,
+    "currency": "EUR",
+    "stock": 5,
+    "description_txt": "Bracelet Love en or jaune 18 carats avec motif vis signature, fourni avec tournevis.",
+    "picture": "/assets/cartier-bracelet-jonc-love.webp",
+    "tags": ["bracelet", "or", "iconique"],
+    "ref": "CA-LOVE",
+    "sizes": ["15", "16", "17", "18", "19", "20", "21"],
+    "colors": [
+      { "name": "Or jaune 18k", "hex": "#C9A84C" },
+      { "name": "Or rose 18k", "hex": "#E8A090" },
+      { "name": "Or blanc 18k", "hex": "#E8E8E8" }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Collier Chaîne Serpenti",
+    "brand": "Bvlgari",
+    "category": "bijoux",
+    "price": 5400,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Collier serpent en or rose 18 carats avec tête ornée de diamants et yeux rubis.",
+    "picture": "/assets/bvlgari-collier-Chaine-serpenti.webp",
+    "tags": ["collier", "or", "serpent"],
+    "ref": "BV-SERP",
+    "sizes": [],
+    "colors": [
+      { "name": "Or rose 18k", "hex": "#E8A090" },
+      { "name": "Diamants", "hex": "#F0F8FF" },
+      { "name": "Rubis (yeux)", "hex": "#9B1C1C" }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Bague Solitaire Six Griffes",
+    "brand": "Tiffany & Co.",
+    "category": "bijoux",
+    "price": 12000,
+    "currency": "EUR",
+    "stock": 3,
+    "description_txt": "Bague solitaire en platine avec diamant rond brillant 1 carat, serti six griffes.",
+    "picture": "/assets/tiffany-and-co-bague-solitaire-six-griffes.webp",
+    "tags": ["bague", "diamant", "platine"],
+    "ref": "TIF-SOL",
+    "sizes": ["48", "50", "52", "54", "56", "58", "60"],
+    "colors": [
+      { "name": "Platine", "hex": "#E5E4E2" },
+      { "name": "Diamant blanc", "hex": "#F0F8FF" }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Chevalière Signet Ring",
+    "brand": "Tom Wood",
+    "category": "bijoux",
+    "price": 390,
+    "currency": "EUR",
+    "stock": 16,
+    "description_txt": "Chevalière en argent sterling 925 avec pierre onyx noir, finition polie.",
+    "picture": "/assets/tom-wood-chevaliere-signet-ring.webp",
+    "tags": ["chevaliere", "argent", "onyx"],
+    "ref": "TW-SIGN",
+    "sizes": ["48", "50", "52", "54", "56", "58", "60", "62", "64"],
+    "colors": [
+      { "name": "Argent 925", "hex": "#C0C0C0" },
+      { "name": "Onyx noir", "hex": "#0D0D0D" }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Foulard Carré 90",
+    "brand": "Hermès",
+    "category": "accessoires",
+    "price": 420,
+    "currency": "EUR",
+    "stock": 15,
+    "description_txt": "Carré en soie twill 90x90 cm avec motif équestre imprimé à la main.",
+    "picture": "/assets/hermes-foulard-carre-90.webp",
+    "tags": ["foulard", "soie", "carre"],
+    "ref": "HM-CARR",
+    "sizes": ["90x90cm"],
+    "colors": [
+      { "name": "Orange Hermès", "hex": "#E8650A" },
+      { "name": "Bleu canard", "hex": "#2A7D8C" },
+      { "name": "Rouge", "hex": "#A0152B" },
+      { "name": "Ivoire", "hex": "#F5F0E8" }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Cravate Grenadine",
+    "brand": "Charvet",
+    "category": "accessoires",
+    "price": 195,
+    "currency": "EUR",
+    "stock": 20,
+    "description_txt": "Cravate en grenadine de soie bordeaux, tissage gaufrée artisanal 7 plis.",
+    "picture": "/assets/charvet-cravate-grenadine.webp",
+    "tags": ["cravate", "soie", "grenadine"],
+    "ref": "CH-GREN",
+    "sizes": [],
+    "colors": [
+      { "name": "Bordeaux", "hex": "#722F37" },
+      { "name": "Marine", "hex": "#1B2A4A" },
+      { "name": "Vert bouteille", "hex": "#2D4A3E" },
+      { "name": "Gris perle", "hex": "#C5C5C5" }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Chapeau Panama Classique",
+    "brand": "Borsalino",
+    "category": "accessoires",
+    "price": 480,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Chapeau Panama tressé à la main en paille de toquilla, bandeau marine.",
+    "picture": "/assets/borsalino-chapeau-panama-classique.webp",
+    "tags": ["chapeau", "panama", "paille"],
+    "ref": "BOR-PAN",
+    "sizes": ["56", "57", "58", "59", "60", "61", "62"],
+    "colors": [
+      { "name": "Paille naturelle", "hex": "#E8D5A3" },
+      { "name": "Marine (bandeau)", "hex": "#1B2A4A" }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Gants Agneau Doublés Cachemire",
+    "brand": "Hermès",
+    "category": "accessoires",
+    "price": 520,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Gants en agneau nappa fauve doublés cachemire avec coutures apparentes.",
+    "picture": "/assets/hermes-gants-agneau-doubles-cachemire.webp",
+    "tags": ["gants", "agneau", "cachemire"],
+    "ref": "HM-GANT",
+    "sizes": ["6.5", "7", "7.5", "8", "8.5", "9"],
+    "colors": [
+      { "name": "Fauve", "hex": "#B5651D" },
+      { "name": "Noir", "hex": "#0D0D0D" },
+      { "name": "Marron", "hex": "#6B3A2A" }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Porte-Cartes Zippé",
+    "brand": "Louis Vuitton",
+    "category": "accessoires",
+    "price": 340,
+    "currency": "EUR",
+    "stock": 25,
+    "description_txt": "Porte-cartes compact en toile Monogram avec zip dorée, 6 emplacements carte.",
+    "picture": "/assets/louis-vuitton-porte-cartes-zippe.webp",
+    "tags": ["porte-cartes", "monogram", "compact"],
+    "ref": "LV-PCRD",
+    "sizes": [],
+    "colors": [
+      { "name": "Marron monogram", "hex": "#7B4B2A" },
+      { "name": "Damier ébène", "hex": "#5C3317" },
+      { "name": "Or (zip)", "hex": "#C9A84C" }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Parfum N°5 Eau de Parfum",
+    "brand": "Chanel",
+    "category": "parfums",
+    "price": 185,
+    "currency": "EUR",
+    "stock": 30,
+    "description_txt": "Flacon 100 ml du parfum le plus célèbre du monde, notes florales aldéhydées intemporelles.",
+    "picture": "/assets/chanel-parfum-n5-eau-de-parfum.webp",
+    "tags": ["parfum", "floral", "iconique"],
+    "ref": "CH-N5",
+    "sizes": ["35ml", "50ml", "100ml", "200ml"],
+    "colors": [
+      { "name": "Or clair (flacon)", "hex": "#F5E6C8" },
+      { "name": "Transparent", "hex": "#F5F5F5" }
+    ]
+  }
+]
