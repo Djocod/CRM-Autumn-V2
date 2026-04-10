@@ -6,9 +6,13 @@ export async function listProducts() {
   return products;
 }
 // Product by brand (case-insensitive)
-export async function getProductByBrand(productBrand) {
-  const products =
-    await sql`SELECT * FROM products WHERE brand ILIKE ${"%" + productBrand + "%"}`;
+export async function getProductBySearch(search = "") {
+  const term = "%" + search + "%";
+  const products = await sql`
+  SELECT * FROM products 
+  WHERE brand ILIKE ${term}
+  OR title ILIKE ${term}
+  `;
   return products;
 }
 // // Add product buy by users

@@ -28,7 +28,7 @@ const ProfilUser = () => {
     //CALLBACK : le code à exécuter
 
     axios
-      .get(`http://localhost:8000/api/product`)
+      .get(`http://localhost:8000/api/products`)
       .then((res) => setProductsData(res.data.products));
 
     axios.get(`http://localhost:8000/api/users/${id}`).then((res) => {

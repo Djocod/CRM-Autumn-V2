@@ -7,9 +7,10 @@ const UsersProductCardView = ({ item }) => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/product`)
+      .get(`http://localhost:8000/api/products`)
       .then((res) => setValueItem(res.data.products));
   }, []);
+
   return (
     <div className="product-card-user-container">
       {valueItem &&

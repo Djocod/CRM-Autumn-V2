@@ -13,8 +13,14 @@
     "ref": "HM-BK35",
     "sizes": [],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Gold (quincaillerie)", "hex": "#C9A84C" }
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Gold (quincaillerie)",
+        "hex": "#C9A84C"
+      }
     ]
   },
   {
@@ -31,9 +37,18 @@
     "ref": "BAL-TS",
     "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "colors": [
-      { "name": "Blanc cassé", "hex": "#F5F0EB" },
-      { "name": "Gris clair", "hex": "#C8C4C0" },
-      { "name": "Rouge", "hex": "#C1001F" }
+      {
+        "name": "Blanc cassé",
+        "hex": "#F5F0EB"
+      },
+      {
+        "name": "Gris clair",
+        "hex": "#C8C4C0"
+      },
+      {
+        "name": "Rouge",
+        "hex": "#C1001F"
+      }
     ]
   },
   {
@@ -50,9 +65,18 @@
     "ref": "GU-HB53",
     "sizes": ["38", "39", "40", "41", "42", "43", "44", "45"],
     "colors": [
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Or (horsebit)", "hex": "#C9A84C" },
-      { "name": "Marron", "hex": "#6B3A2A" }
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Or (horsebit)",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Marron",
+        "hex": "#6B3A2A"
+      }
     ]
   },
   {
@@ -69,8 +93,14 @@
     "ref": "LV-CEIN",
     "sizes": ["75cm", "80cm", "85cm", "90cm", "95cm", "100cm", "105cm"],
     "colors": [
-      { "name": "Marron monogram", "hex": "#7B4B2A" },
-      { "name": "Or (boucle)", "hex": "#C9A84C" }
+      {
+        "name": "Marron monogram",
+        "hex": "#7B4B2A"
+      },
+      {
+        "name": "Or (boucle)",
+        "hex": "#C9A84C"
+      }
     ]
   },
   {
@@ -87,8 +117,14 @@
     "ref": "TF-AVI",
     "sizes": [],
     "colors": [
-      { "name": "Or (monture)", "hex": "#C9A84C" },
-      { "name": "Gris dégradé (verres)", "hex": "#707070" }
+      {
+        "name": "Or (monture)",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Gris dégradé (verres)",
+        "hex": "#707070"
+      }
     ]
   },
   {
@@ -105,9 +141,16 @@
     "ref": "YSL-TUX",
     "sizes": ["44", "46", "48", "50", "52", "54"],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Noir satin (revers)", "hex": "#1A1A1A" }
-    ]
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Noir satin (revers)",
+        "hex": "#1A1A1A"
+      }
+    ],
+    "gender": "homme"
   },
   {
     "id": 7,
@@ -123,10 +166,22 @@
     "ref": "DI-LADY",
     "sizes": [],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Or (breloques)", "hex": "#C9A84C" },
-      { "name": "Rose poudré", "hex": "#E8B4B8" },
-      { "name": "Rouge", "hex": "#A0152B" }
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Or (breloques)",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Rose poudré",
+        "hex": "#E8B4B8"
+      },
+      {
+        "name": "Rouge",
+        "hex": "#A0152B"
+      }
     ]
   },
   {
@@ -143,9 +198,18 @@
     "ref": "BV-CHEL",
     "sizes": ["36", "37", "38", "39", "40", "41"],
     "colors": [
-      { "name": "Vert bouteille", "hex": "#2D4A3E" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Caramel", "hex": "#C68B59" }
+      {
+        "name": "Vert bouteille",
+        "hex": "#2D4A3E"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C68B59"
+      }
     ]
   },
   {
@@ -162,10 +226,22 @@
     "ref": "BB-ECHA",
     "sizes": [],
     "colors": [
-      { "name": "Camel", "hex": "#C19A6B" },
-      { "name": "Rouge bordeaux", "hex": "#722F37" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Beige", "hex": "#E8D5B5" }
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Rouge bordeaux",
+        "hex": "#722F37"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Beige",
+        "hex": "#E8D5B5"
+      }
     ]
   },
   {
@@ -182,10 +258,20 @@
     "ref": "MM-CAME",
     "sizes": ["34", "36", "38", "40", "42", "44", "46"],
     "colors": [
-      { "name": "Camel", "hex": "#C19A6B" },
-      { "name": "Ivoire", "hex": "#F5F0E8" },
-      { "name": "Noir", "hex": "#1A1A1A" }
-    ]
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      }
+    ],
+    "gender": "femme"
   },
   {
     "id": 11,
@@ -201,10 +287,22 @@
     "ref": "HM-KL28",
     "sizes": [],
     "colors": [
-      { "name": "Fauve", "hex": "#B5651D" },
-      { "name": "Palladium (quincaillerie)", "hex": "#C0C0C0" },
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Rouge H", "hex": "#8B0000" }
+      {
+        "name": "Fauve",
+        "hex": "#B5651D"
+      },
+      {
+        "name": "Palladium (quincaillerie)",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Rouge H",
+        "hex": "#8B0000"
+      }
     ]
   },
   {
@@ -221,10 +319,22 @@
     "ref": "CH-255",
     "sizes": [],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Or (chaîne)", "hex": "#C9A84C" },
-      { "name": "Beige", "hex": "#D4B896" },
-      { "name": "Rouge", "hex": "#A0152B" }
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Or (chaîne)",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Beige",
+        "hex": "#D4B896"
+      },
+      {
+        "name": "Rouge",
+        "hex": "#A0152B"
+      }
     ]
   },
   {
@@ -241,9 +351,18 @@
     "ref": "LV-NEVR",
     "sizes": [],
     "colors": [
-      { "name": "Marron monogram", "hex": "#7B4B2A" },
-      { "name": "Bordeaux (intérieur)", "hex": "#722F37" },
-      { "name": "Rose (intérieur)", "hex": "#E8B4B8" }
+      {
+        "name": "Marron monogram",
+        "hex": "#7B4B2A"
+      },
+      {
+        "name": "Bordeaux (intérieur)",
+        "hex": "#722F37"
+      },
+      {
+        "name": "Rose (intérieur)",
+        "hex": "#E8B4B8"
+      }
     ]
   },
   {
@@ -260,9 +379,18 @@
     "ref": "DI-SADL",
     "sizes": [],
     "colors": [
-      { "name": "Bleu oblique", "hex": "#2C3E7A" },
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Blanc", "hex": "#F5F5F5" }
+      {
+        "name": "Bleu oblique",
+        "hex": "#2C3E7A"
+      },
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#F5F5F5"
+      }
     ]
   },
   {
@@ -279,10 +407,22 @@
     "ref": "BV-CASS",
     "sizes": [],
     "colors": [
-      { "name": "Caramel", "hex": "#C68B59" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Vert bouteille", "hex": "#2D4A3E" },
-      { "name": "Blanc cassé", "hex": "#F5F0EB" }
+      {
+        "name": "Caramel",
+        "hex": "#C68B59"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vert bouteille",
+        "hex": "#2D4A3E"
+      },
+      {
+        "name": "Blanc cassé",
+        "hex": "#F5F0EB"
+      }
     ]
   },
   {
@@ -299,9 +439,18 @@
     "ref": "GU-DION",
     "sizes": [],
     "colors": [
-      { "name": "Beige GG", "hex": "#C8A96E" },
-      { "name": "Marron", "hex": "#6B3A2A" },
-      { "name": "Noir", "hex": "#1A1A1A" }
+      {
+        "name": "Beige GG",
+        "hex": "#C8A96E"
+      },
+      {
+        "name": "Marron",
+        "hex": "#6B3A2A"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      }
     ]
   },
   {
@@ -334,9 +483,18 @@
       "41"
     ],
     "colors": [
-      { "name": "Nude", "hex": "#E3C4A8" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Rouge (semelle)", "hex": "#BF0020" }
+      {
+        "name": "Nude",
+        "hex": "#E3C4A8"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Rouge (semelle)",
+        "hex": "#BF0020"
+      }
     ]
   },
   {
@@ -353,9 +511,18 @@
     "ref": "JL-BALM",
     "sizes": ["39", "40", "41", "42", "43", "44", "45", "46"],
     "colors": [
-      { "name": "Marron cerise", "hex": "#722B3A" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Tan", "hex": "#C4874F" }
+      {
+        "name": "Marron cerise",
+        "hex": "#722B3A"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4874F"
+      }
     ]
   },
   {
@@ -372,9 +539,18 @@
     "ref": "NB-990",
     "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
     "colors": [
-      { "name": "Gris", "hex": "#8A8A8A" },
-      { "name": "Blanc", "hex": "#F5F5F5" },
-      { "name": "Marine", "hex": "#1B2A4A" }
+      {
+        "name": "Gris",
+        "hex": "#8A8A8A"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Marine",
+        "hex": "#1B2A4A"
+      }
     ]
   },
   {
@@ -391,9 +567,18 @@
     "ref": "GU-FURS",
     "sizes": ["35", "36", "37", "38", "39", "40", "41"],
     "colors": [
-      { "name": "Beige", "hex": "#D4C5A9" },
-      { "name": "Ivoire", "hex": "#F5F0E8" },
-      { "name": "Noir", "hex": "#1A1A1A" }
+      {
+        "name": "Beige",
+        "hex": "#D4C5A9"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      }
     ]
   },
   {
@@ -410,8 +595,14 @@
     "ref": "HM-BOOT",
     "sizes": ["36", "37", "38", "39", "40", "41"],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Marron", "hex": "#6B3A2A" }
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Marron",
+        "hex": "#6B3A2A"
+      }
     ]
   },
   {
@@ -428,10 +619,20 @@
     "ref": "BAL-BLZ",
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "colors": [
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Gris anthracite", "hex": "#3A3A3A" },
-      { "name": "Blanc", "hex": "#F5F5F5" }
-    ]
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Gris anthracite",
+        "hex": "#3A3A3A"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#F5F5F5"
+      }
+    ],
+    "gender": "unisexe"
   },
   {
     "id": 23,
@@ -447,10 +648,20 @@
     "ref": "BB-TREN",
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "colors": [
-      { "name": "Beige honey", "hex": "#C19A6B" },
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Kaki", "hex": "#6B7355" }
-    ]
+      {
+        "name": "Beige honey",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Kaki",
+        "hex": "#6B7355"
+      }
+    ],
+    "gender": "unisexe"
   },
   {
     "id": 24,
@@ -466,10 +677,20 @@
     "ref": "VER-BUST",
     "sizes": ["34", "36", "38", "40", "42", "44"],
     "colors": [
-      { "name": "Ivoire", "hex": "#F5F0E8" },
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Or (détails)", "hex": "#C9A84C" }
-    ]
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Or (détails)",
+        "hex": "#C9A84C"
+      }
+    ],
+    "gender": "femme"
   },
   {
     "id": 25,
@@ -485,12 +706,28 @@
     "ref": "LP-PULL",
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "colors": [
-      { "name": "Camel", "hex": "#C19A6B" },
-      { "name": "Ivory", "hex": "#F5F0E8" },
-      { "name": "Navy", "hex": "#1B2A4A" },
-      { "name": "Bordeaux", "hex": "#722F37" },
-      { "name": "Gris chiné", "hex": "#9B9B9B" }
-    ]
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#722F37"
+      },
+      {
+        "name": "Gris chiné",
+        "hex": "#9B9B9B"
+      }
+    ],
+    "gender": "unisexe"
   },
   {
     "id": 26,
@@ -506,10 +743,20 @@
     "ref": "FR-JEAN",
     "sizes": ["24", "25", "26", "27", "28", "29", "30", "31", "32"],
     "colors": [
-      { "name": "Indigo", "hex": "#2B3A67" },
-      { "name": "Noir", "hex": "#1A1A1A" },
-      { "name": "Blanc", "hex": "#F5F5F5" }
-    ]
+      {
+        "name": "Indigo",
+        "hex": "#2B3A67"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#F5F5F5"
+      }
+    ],
+    "gender": "femme"
   },
   {
     "id": 27,
@@ -525,11 +772,24 @@
     "ref": "CH-OXFO",
     "sizes": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "colors": [
-      { "name": "Bleu ciel", "hex": "#87CEEB" },
-      { "name": "Blanc", "hex": "#F5F5F5" },
-      { "name": "Bleu marine", "hex": "#1B2A4A" },
-      { "name": "Rose poudré", "hex": "#E8B4B8" }
-    ]
+      {
+        "name": "Bleu ciel",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Bleu marine",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Rose poudré",
+        "hex": "#E8B4B8"
+      }
+    ],
+    "gender": "homme"
   },
   {
     "id": 28,
@@ -545,8 +805,14 @@
     "ref": "PP-5711",
     "sizes": ["40mm"],
     "colors": [
-      { "name": "Bleu ardoise (cadran)", "hex": "#4A6895" },
-      { "name": "Acier (boîtier)", "hex": "#C0C0C0" }
+      {
+        "name": "Bleu ardoise (cadran)",
+        "hex": "#4A6895"
+      },
+      {
+        "name": "Acier (boîtier)",
+        "hex": "#C0C0C0"
+      }
     ]
   },
   {
@@ -563,9 +829,18 @@
     "ref": "AP-1550",
     "sizes": ["41mm"],
     "colors": [
-      { "name": "Bleu (cadran)", "hex": "#2A4A8A" },
-      { "name": "Gris (cadran)", "hex": "#6E7E8C" },
-      { "name": "Acier (boîtier)", "hex": "#C0C0C0" }
+      {
+        "name": "Bleu (cadran)",
+        "hex": "#2A4A8A"
+      },
+      {
+        "name": "Gris (cadran)",
+        "hex": "#6E7E8C"
+      },
+      {
+        "name": "Acier (boîtier)",
+        "hex": "#C0C0C0"
+      }
     ]
   },
   {
@@ -582,9 +857,18 @@
     "ref": "RX-SUBM",
     "sizes": ["41mm"],
     "colors": [
-      { "name": "Noir (lunette)", "hex": "#1A1A1A" },
-      { "name": "Acier (boîtier)", "hex": "#C0C0C0" },
-      { "name": "Noir (cadran)", "hex": "#0D0D0D" }
+      {
+        "name": "Noir (lunette)",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Acier (boîtier)",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Noir (cadran)",
+        "hex": "#0D0D0D"
+      }
     ]
   },
   {
@@ -601,9 +885,18 @@
     "ref": "CA-LOVE",
     "sizes": ["15", "16", "17", "18", "19", "20", "21"],
     "colors": [
-      { "name": "Or jaune 18k", "hex": "#C9A84C" },
-      { "name": "Or rose 18k", "hex": "#E8A090" },
-      { "name": "Or blanc 18k", "hex": "#E8E8E8" }
+      {
+        "name": "Or jaune 18k",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Or rose 18k",
+        "hex": "#E8A090"
+      },
+      {
+        "name": "Or blanc 18k",
+        "hex": "#E8E8E8"
+      }
     ]
   },
   {
@@ -620,9 +913,18 @@
     "ref": "BV-SERP",
     "sizes": [],
     "colors": [
-      { "name": "Or rose 18k", "hex": "#E8A090" },
-      { "name": "Diamants", "hex": "#F0F8FF" },
-      { "name": "Rubis (yeux)", "hex": "#9B1C1C" }
+      {
+        "name": "Or rose 18k",
+        "hex": "#E8A090"
+      },
+      {
+        "name": "Diamants",
+        "hex": "#F0F8FF"
+      },
+      {
+        "name": "Rubis (yeux)",
+        "hex": "#9B1C1C"
+      }
     ]
   },
   {
@@ -639,8 +941,14 @@
     "ref": "TIF-SOL",
     "sizes": ["48", "50", "52", "54", "56", "58", "60"],
     "colors": [
-      { "name": "Platine", "hex": "#E5E4E2" },
-      { "name": "Diamant blanc", "hex": "#F0F8FF" }
+      {
+        "name": "Platine",
+        "hex": "#E5E4E2"
+      },
+      {
+        "name": "Diamant blanc",
+        "hex": "#F0F8FF"
+      }
     ]
   },
   {
@@ -657,8 +965,14 @@
     "ref": "TW-SIGN",
     "sizes": ["48", "50", "52", "54", "56", "58", "60", "62", "64"],
     "colors": [
-      { "name": "Argent 925", "hex": "#C0C0C0" },
-      { "name": "Onyx noir", "hex": "#0D0D0D" }
+      {
+        "name": "Argent 925",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Onyx noir",
+        "hex": "#0D0D0D"
+      }
     ]
   },
   {
@@ -675,10 +989,22 @@
     "ref": "HM-CARR",
     "sizes": ["90x90cm"],
     "colors": [
-      { "name": "Orange Hermès", "hex": "#E8650A" },
-      { "name": "Bleu canard", "hex": "#2A7D8C" },
-      { "name": "Rouge", "hex": "#A0152B" },
-      { "name": "Ivoire", "hex": "#F5F0E8" }
+      {
+        "name": "Orange Hermès",
+        "hex": "#E8650A"
+      },
+      {
+        "name": "Bleu canard",
+        "hex": "#2A7D8C"
+      },
+      {
+        "name": "Rouge",
+        "hex": "#A0152B"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      }
     ]
   },
   {
@@ -695,10 +1021,22 @@
     "ref": "CH-GREN",
     "sizes": [],
     "colors": [
-      { "name": "Bordeaux", "hex": "#722F37" },
-      { "name": "Marine", "hex": "#1B2A4A" },
-      { "name": "Vert bouteille", "hex": "#2D4A3E" },
-      { "name": "Gris perle", "hex": "#C5C5C5" }
+      {
+        "name": "Bordeaux",
+        "hex": "#722F37"
+      },
+      {
+        "name": "Marine",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Vert bouteille",
+        "hex": "#2D4A3E"
+      },
+      {
+        "name": "Gris perle",
+        "hex": "#C5C5C5"
+      }
     ]
   },
   {
@@ -715,8 +1053,14 @@
     "ref": "BOR-PAN",
     "sizes": ["56", "57", "58", "59", "60", "61", "62"],
     "colors": [
-      { "name": "Paille naturelle", "hex": "#E8D5A3" },
-      { "name": "Marine (bandeau)", "hex": "#1B2A4A" }
+      {
+        "name": "Paille naturelle",
+        "hex": "#E8D5A3"
+      },
+      {
+        "name": "Marine (bandeau)",
+        "hex": "#1B2A4A"
+      }
     ]
   },
   {
@@ -733,9 +1077,18 @@
     "ref": "HM-GANT",
     "sizes": ["6.5", "7", "7.5", "8", "8.5", "9"],
     "colors": [
-      { "name": "Fauve", "hex": "#B5651D" },
-      { "name": "Noir", "hex": "#0D0D0D" },
-      { "name": "Marron", "hex": "#6B3A2A" }
+      {
+        "name": "Fauve",
+        "hex": "#B5651D"
+      },
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Marron",
+        "hex": "#6B3A2A"
+      }
     ]
   },
   {
@@ -752,9 +1105,18 @@
     "ref": "LV-PCRD",
     "sizes": [],
     "colors": [
-      { "name": "Marron monogram", "hex": "#7B4B2A" },
-      { "name": "Damier ébène", "hex": "#5C3317" },
-      { "name": "Or (zip)", "hex": "#C9A84C" }
+      {
+        "name": "Marron monogram",
+        "hex": "#7B4B2A"
+      },
+      {
+        "name": "Damier ébène",
+        "hex": "#5C3317"
+      },
+      {
+        "name": "Or (zip)",
+        "hex": "#C9A84C"
+      }
     ]
   },
   {
@@ -771,8 +1133,956 @@
     "ref": "CH-N5",
     "sizes": ["35ml", "50ml", "100ml", "200ml"],
     "colors": [
-      { "name": "Or clair (flacon)", "hex": "#F5E6C8" },
-      { "name": "Transparent", "hex": "#F5F5F5" }
+      {
+        "name": "Or clair (flacon)",
+        "hex": "#F5E6C8"
+      },
+      {
+        "name": "Transparent",
+        "hex": "#F5F5F5"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Valise Rimowa Original Cabin",
+    "brand": "Rimowa",
+    "category": "bagagerie",
+    "price": 950,
+    "currency": "EUR",
+    "stock": 12,
+    "description_txt": "Valise cabine en aluminium brossé avec système de roues multidirectionnel et serrure TSA.",
+    "picture": "/assets/rimowa-valise-original-cabin.webp",
+    "tags": ["valise", "aluminium", "cabine"],
+    "ref": "RI-ORIG",
+    "sizes": ["21 pouces"],
+    "colors": [
+      {
+        "name": "Argent aluminium",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Or (détails)",
+        "hex": "#C9A84C"
+      },
+      {
+        "name": "Noir mat",
+        "hex": "#1A1A1A"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Trolley Pegase 55",
+    "brand": "Louis Vuitton",
+    "category": "bagagerie",
+    "price": 2900,
+    "currency": "EUR",
+    "stock": 7,
+    "description_txt": "Trolley cabine 55 cm en toile Monogram avec cadre aluminium et roues pivotantes silencieuses.",
+    "picture": "/assets/louis-vuitton-trolley-pegase-55.webp",
+    "tags": ["trolley", "monogram", "cabine"],
+    "ref": "LV-PEG5",
+    "sizes": ["55cm"],
+    "colors": [
+      {
+        "name": "Marron monogram",
+        "hex": "#7B4B2A"
+      },
+      {
+        "name": "Damier ébène",
+        "hex": "#5C3317"
+      },
+      {
+        "name": "Or (quincaillerie)",
+        "hex": "#C9A84C"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Bagage Souple Avios 70",
+    "brand": "Goyard",
+    "category": "bagagerie",
+    "price": 3400,
+    "currency": "EUR",
+    "stock": 5,
+    "description_txt": "Sac de voyage souple en toile Goyardine peinte à la main, armatures en laiton doré.",
+    "picture": "/assets/goyard-bagage-souple-avios-70.webp",
+    "tags": ["bagage", "voyage", "goyardine"],
+    "ref": "GY-AVI7",
+    "sizes": ["70cm"],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Bleu marine",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Rouge",
+        "hex": "#A0152B"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Sac de Voyage Boston",
+    "brand": "Gucci",
+    "category": "bagagerie",
+    "price": 1850,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Sac de voyage en toile GG Supreme avec anses en cuir marron et double zip.",
+    "picture": "/assets/gucci-sac-de-voyage-boston.webp",
+    "tags": ["sac de voyage", "GG Supreme", "weekend"],
+    "ref": "GU-BOST",
+    "sizes": [],
+    "colors": [
+      {
+        "name": "Beige GG",
+        "hex": "#C8B89A"
+      },
+      {
+        "name": "Marron (anses)",
+        "hex": "#6B3A2A"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Valise Horizon 55",
+    "brand": "Dior",
+    "category": "bagagerie",
+    "price": 3200,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Valise cabine en toile Dior Oblique grise avec bande Dior signature et roues silencieuses.",
+    "picture": "/assets/dior-valise-horizon-55.webp",
+    "tags": ["valise", "Oblique", "cabine"],
+    "ref": "DI-HOR5",
+    "sizes": ["55cm"],
+    "colors": [
+      {
+        "name": "Gris Oblique",
+        "hex": "#9E9E9E"
+      },
+      {
+        "name": "Noir (bordures)",
+        "hex": "#1A1A1A"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Sac Weekender Keepall 55",
+    "brand": "Louis Vuitton",
+    "category": "bagagerie",
+    "price": 1550,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Sac de voyage Keepall 55 Bandoulière en toile Monogram avec bandoulière amovible.",
+    "picture": "/assets/louis-vuitton-keepall-55.webp",
+    "tags": ["keepall", "weekend", "monogram"],
+    "ref": "LV-KP55",
+    "sizes": ["55cm"],
+    "colors": [
+      {
+        "name": "Marron monogram",
+        "hex": "#7B4B2A"
+      },
+      {
+        "name": "Or (zip)",
+        "hex": "#C9A84C"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Valise Check-In 76",
+    "brand": "Rimowa",
+    "category": "bagagerie",
+    "price": 1150,
+    "currency": "EUR",
+    "stock": 9,
+    "description_txt": "Grande valise en polycarbonate ultra-léger avec système Flex-Divider et serrure TSA.",
+    "picture": "/assets/rimowa-valise-check-in-76.webp",
+    "tags": ["valise", "polycarbonate", "léger"],
+    "ref": "RI-CHK7",
+    "sizes": ["76cm"],
+    "colors": [
+      {
+        "name": "Noir brillant",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Blanc cassé",
+        "hex": "#F5F0EB"
+      },
+      {
+        "name": "Bleu saphir",
+        "hex": "#2A4A8A"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Bagage Cabine Toile H",
+    "brand": "Hermès",
+    "category": "bagagerie",
+    "price": 4200,
+    "currency": "EUR",
+    "stock": 3,
+    "description_txt": "Sac cabine en toile enduite H et cuir Vache Naturelle, finitions palladium.",
+    "picture": "/assets/hermes-bagage-cabine-toile-h.webp",
+    "tags": ["bagage", "toile H", "luxe"],
+    "ref": "HM-BAGC",
+    "sizes": [],
+    "colors": [
+      {
+        "name": "Naturel",
+        "hex": "#D4B896"
+      },
+      {
+        "name": "Marine",
+        "hex": "#1B2A4A"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Sac à Dos Nylon Backpack",
+    "brand": "Prada",
+    "category": "bagagerie",
+    "price": 1100,
+    "currency": "EUR",
+    "stock": 14,
+    "description_txt": "Sac à dos en nylon Re-Nylon recyclé avec triangle émaillé emblématique et bretelles rembourrées.",
+    "picture": "/assets/prada-sac-dos-nylon-backpack.webp",
+    "tags": ["sac à dos", "nylon", "voyage"],
+    "ref": "PR-BKPK",
+    "sizes": [],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Bleu nuit",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Ardoise",
+        "hex": "#708090"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Mallette Attaché-Case Heritage",
+    "brand": "Globe-Trotter",
+    "category": "bagagerie",
+    "price": 1800,
+    "currency": "EUR",
+    "stock": 6,
+    "description_txt": "Attaché-case emblématique en vulcanite et aluminium, garnitures laiton, construit à la main en Angleterre.",
+    "picture": "/assets/globe-trotter-attache-case-heritage.webp",
+    "tags": ["attaché-case", "business", "artisanal"],
+    "ref": "GT-ATTC",
+    "sizes": ["18 pouces"],
+    "colors": [
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Noir",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C19A6B"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Crème La Mer Moisturizing",
+    "brand": "La Mer",
+    "category": "cosmetique",
+    "price": 370,
+    "currency": "EUR",
+    "stock": 20,
+    "description_txt": "Crème hydratante iconique à base d'extrait de Miracle Broth marin, régénère et repulpe la peau.",
+    "picture": "/assets/la-mer-creme-moisturizing.webp",
+    "tags": ["crème", "hydratant", "anti-âge"],
+    "ref": "LM-MOIS",
+    "sizes": ["30ml", "60ml", "100ml", "250ml"],
+    "colors": [
+      {
+        "name": "Teal (pot)",
+        "hex": "#2A7D8C"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Sérum Micro-Essence",
+    "brand": "SK-II",
+    "category": "cosmetique",
+    "price": 220,
+    "currency": "EUR",
+    "stock": 18,
+    "description_txt": "Essence enrichie en Pitera, améliore visiblement l'éclat, la texture et la fermeté de la peau en 28 jours.",
+    "picture": "/assets/skii-serum-micro-essence.webp",
+    "tags": ["essence", "soin", "éclat"],
+    "ref": "SK-MICR",
+    "sizes": ["75ml", "160ml", "230ml"],
+    "colors": []
+  },
+  {
+    "id": 53,
+    "title": "Huile Corps Mythic Oil",
+    "brand": "L'Occitane",
+    "category": "cosmetique",
+    "price": 95,
+    "currency": "EUR",
+    "stock": 25,
+    "description_txt": "Huile sèche corps et cheveux aux extraits d'immortelle et rose de Grasse, peau soyeuse et lumineuse.",
+    "picture": "/assets/loccitane-huile-corps-mythic-oil.webp",
+    "tags": ["huile", "corps", "soin"],
+    "ref": "LO-MYTH",
+    "sizes": ["100ml", "200ml"],
+    "colors": []
+  },
+  {
+    "id": 54,
+    "title": "Masque Hydra Beauty Micro Crème",
+    "brand": "Chanel",
+    "category": "cosmetique",
+    "price": 110,
+    "currency": "EUR",
+    "stock": 15,
+    "description_txt": "Crème-masque hydratante intensive à la camélia de Chanel, repulpe et illumine le teint en 10 minutes.",
+    "picture": "/assets/chanel-masque-hydra-beauty.webp",
+    "tags": ["masque", "hydratant", "camélia"],
+    "ref": "CH-HYDR",
+    "sizes": ["75ml"],
+    "colors": []
+  },
+  {
+    "id": 55,
+    "title": "Foundation Skin Tint SPF30",
+    "brand": "Charlotte Tilbury",
+    "category": "cosmetique",
+    "price": 48,
+    "currency": "EUR",
+    "stock": 35,
+    "description_txt": "Fond de teint léger effet peau nue avec SPF30, formule enrichie en peptides et acide hyaluronique.",
+    "picture": "/assets/charlotte-tilbury-foundation-skin-tint.webp",
+    "tags": ["fond de teint", "SPF", "naturel"],
+    "ref": "CT-SKTN",
+    "sizes": ["30ml"],
+    "colors": [
+      {
+        "name": "1 Fair",
+        "hex": "#F5E6D6"
+      },
+      {
+        "name": "3 Light Medium",
+        "hex": "#D4A882"
+      },
+      {
+        "name": "5 Medium",
+        "hex": "#C08B60"
+      },
+      {
+        "name": "8 Deep",
+        "hex": "#7B4A2B"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Rouge à Lèvres Pillow Talk",
+    "brand": "Charlotte Tilbury",
+    "category": "cosmetique",
+    "price": 36,
+    "currency": "EUR",
+    "stock": 40,
+    "description_txt": "Rouge à lèvres satiné iconique teinte nude-rose universelle, enrichi en vitamine E.",
+    "picture": "/assets/charlotte-tilbury-rouge-levres-pillow-talk.webp",
+    "tags": ["rouge à lèvres", "satiné", "nude"],
+    "ref": "CT-PILL",
+    "sizes": [],
+    "colors": [
+      {
+        "name": "Pillow Talk",
+        "hex": "#C08080"
+      },
+      {
+        "name": "Pillow Talk Medium",
+        "hex": "#A0605A"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Palette Bronzing & Blush",
+    "brand": "Tom Ford Beauty",
+    "category": "cosmetique",
+    "price": 85,
+    "currency": "EUR",
+    "stock": 12,
+    "description_txt": "Palette bronzer et blush en quadrichromie, formule satinée longue tenue, packaging laqué noir signature.",
+    "picture": "/assets/tomford-palette-bronzing-blush.webp",
+    "tags": ["palette", "bronzer", "blush"],
+    "ref": "TFB-PAL",
+    "sizes": [],
+    "colors": [
+      {
+        "name": "Terra Bare",
+        "hex": "#C08B60"
+      },
+      {
+        "name": "Rose Flush",
+        "hex": "#E8A090"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Crème Yeux Advanced Night Repair",
+    "brand": "Estée Lauder",
+    "category": "cosmetique",
+    "price": 130,
+    "currency": "EUR",
+    "stock": 22,
+    "description_txt": "Soin contour des yeux anti-cernes et anti-rides, technologie ChronoluxCB, résultats visibles en 2 semaines.",
+    "picture": "/assets/esteelauder-creme-yeux-anr.webp",
+    "tags": ["contour yeux", "anti-âge", "nuit"],
+    "ref": "EL-ANRY",
+    "sizes": ["15ml"],
+    "colors": []
+  },
+  {
+    "id": 59,
+    "title": "Sérum Réparateur Absolue",
+    "brand": "Lancôme",
+    "category": "cosmetique",
+    "price": 290,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Sérum anti-âge luxueux enrichi en Rose Longévité Grand Cru et acide hyaluronique multi-niveaux.",
+    "picture": "/assets/lancome-serum-reparateur-absolue.webp",
+    "tags": ["sérum", "anti-âge", "rose"],
+    "ref": "LC-ABSO",
+    "sizes": ["30ml", "60ml"],
+    "colors": []
+  },
+  {
+    "id": 60,
+    "title": "Masque Or 24K Pure Gold",
+    "brand": "Sisley",
+    "category": "cosmetique",
+    "price": 350,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Masque facial aux particules d'or 24 carats, extrait de truffes blanches et extrait de caviar, effet éclat immédiat.",
+    "picture": "/assets/sisley-masque-or-24k.webp",
+    "tags": ["masque", "or", "prestige"],
+    "ref": "SI-OR24",
+    "sizes": ["60ml"],
+    "colors": []
+  },
+  {
+    "id": 61,
+    "title": "Parfum Baccarat Rouge 540 EDP",
+    "brand": "Maison Francis Kurkdjian",
+    "category": "parfum",
+    "price": 325,
+    "currency": "EUR",
+    "stock": 12,
+    "description_txt": "Eau de parfum aux notes de jasmin, safran, ambre et cèdre, créé pour célébrer l'anniversaire de Baccarat.",
+    "picture": "/assets/mfk-baccarat-rouge-540-edp.webp",
+    "tags": ["parfum", "floral", "ambré"],
+    "ref": "MFK-BR5",
+    "sizes": ["35ml", "70ml", "200ml"],
+    "colors": [
+      {
+        "name": "Transparent (flacon)",
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Rouge (cristal)",
+        "hex": "#A0152B"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Parfum Oud Wood",
+    "brand": "Tom Ford Private Blend",
+    "category": "parfum",
+    "price": 295,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Eau de parfum aux notes d'oud, bois de rose, cardamome et vanille, une signature boisée sophistiquée.",
+    "picture": "/assets/tomford-oud-wood.webp",
+    "tags": ["parfum", "oud", "boisé"],
+    "ref": "TF-OUD",
+    "sizes": ["50ml", "100ml", "250ml"],
+    "colors": [
+      {
+        "name": "Ambre (flacon)",
+        "hex": "#C68B59"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Parfum Shalimar EDP",
+    "brand": "Guerlain",
+    "category": "parfum",
+    "price": 145,
+    "currency": "EUR",
+    "stock": 20,
+    "description_txt": "Eau de parfum oriental iconique aux notes de bergamote, iris, rose et vanille, créé en 1925.",
+    "picture": "/assets/guerlain-shalimar-edp.webp",
+    "tags": ["parfum", "oriental", "iconique"],
+    "ref": "GU-SHAL",
+    "sizes": ["50ml", "90ml"],
+    "colors": [
+      {
+        "name": "Bleu nuit (flacon)",
+        "hex": "#1B2A4A"
+      },
+      {
+        "name": "Or (bouchon)",
+        "hex": "#C9A84C"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "L'Heure Bleue EDP",
+    "brand": "Guerlain",
+    "category": "parfum",
+    "price": 130,
+    "currency": "EUR",
+    "stock": 15,
+    "description_txt": "Eau de parfum poudré fleuri aux notes d'anisette, rose, iris et héliotrope, créé en 1912.",
+    "picture": "/assets/guerlain-lheure-bleue-edp.webp",
+    "tags": ["parfum", "poudré", "fleuri"],
+    "ref": "GU-HBLEU",
+    "sizes": ["30ml", "50ml", "100ml"],
+    "colors": [
+      {
+        "name": "Bleu poudré (flacon)",
+        "hex": "#7BA7BC"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Parfum Ambre Sultan",
+    "brand": "Serge Lutens",
+    "category": "parfum",
+    "price": 165,
+    "currency": "EUR",
+    "stock": 9,
+    "description_txt": "Eau de parfum aux notes de plantes aromatiques, résines, ambre et musk, une composition enveloppante et sensuelle.",
+    "picture": "/assets/serge-lutens-ambre-sultan.webp",
+    "tags": ["parfum", "ambre", "oriental"],
+    "ref": "SL-AMBS",
+    "sizes": ["50ml", "75ml"],
+    "colors": [
+      {
+        "name": "Prune foncé (flacon)",
+        "hex": "#4A235A"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Parfum Opium EDP",
+    "brand": "Yves Saint Laurent",
+    "category": "parfum",
+    "price": 115,
+    "currency": "EUR",
+    "stock": 18,
+    "description_txt": "Eau de parfum oriental épicé aux notes de mandarine, cœillet, jasmin et patchouli, une icône depuis 1977.",
+    "picture": "/assets/ysl-opium-edp.webp",
+    "tags": ["parfum", "épicé", "oriental"],
+    "ref": "YSL-OPI",
+    "sizes": ["30ml", "50ml", "90ml"],
+    "colors": [
+      {
+        "name": "Rouge laqué (flacon)",
+        "hex": "#8B0000"
+      },
+      {
+        "name": "Or (détails)",
+        "hex": "#C9A84C"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Parfum Rose Oud Intense",
+    "brand": "Dior",
+    "category": "parfum",
+    "price": 380,
+    "currency": "EUR",
+    "stock": 7,
+    "description_txt": "Eau de parfum intense de la Collection Privée, rose de Grasse et oud précieux, un sillage d'exception.",
+    "picture": "/assets/dior-rose-oud-intense.webp",
+    "tags": ["parfum", "rose", "oud"],
+    "ref": "DI-ROUD",
+    "sizes": ["125ml", "250ml"],
+    "colors": [
+      {
+        "name": "Blanc (flacon)",
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Gris perle (bouchon)",
+        "hex": "#C5C5C5"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Parfum Santal Blush",
+    "brand": "Tom Ford Private Blend",
+    "category": "parfum",
+    "price": 295,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Eau de parfum aux notes de santal de Mysore, cannelle, ylang-ylang et ambre, doux et enveloppant.",
+    "picture": "/assets/tomford-santal-blush.webp",
+    "tags": ["parfum", "santal", "doux"],
+    "ref": "TF-SANB",
+    "sizes": ["50ml", "100ml"],
+    "colors": [
+      {
+        "name": "Nude rosé (flacon)",
+        "hex": "#E8C5B0"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Oud Ispahan EDP",
+    "brand": "Dior",
+    "category": "parfum",
+    "price": 380,
+    "currency": "EUR",
+    "stock": 6,
+    "description_txt": "Eau de parfum de la Collection Privée, oud de Laos, rose bulgare et labdanum, une ode à l'Orient.",
+    "picture": "/assets/dior-oud-ispahan-edp.webp",
+    "tags": ["parfum", "oud", "rose"],
+    "ref": "DI-OUDISP",
+    "sizes": ["125ml", "250ml"],
+    "colors": [
+      {
+        "name": "Blanc (flacon)",
+        "hex": "#F5F5F5"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Parfum L'Heure de Nuit",
+    "brand": "Cartier",
+    "category": "parfum",
+    "price": 175,
+    "currency": "EUR",
+    "stock": 11,
+    "description_txt": "Eau de parfum chyprée boisée aux notes de bois d'oud, cèdre, iris et muscs, présenté dans un flacon panther.",
+    "picture": "/assets/cartier-lheure-de-nuit.webp",
+    "tags": ["parfum", "boisé", "chypré"],
+    "ref": "CA-HNUIT",
+    "sizes": ["45ml", "75ml"],
+    "colors": [
+      {
+        "name": "Noir (flacon)",
+        "hex": "#0D0D0D"
+      },
+      {
+        "name": "Or (panther)",
+        "hex": "#C9A84C"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Parure de Lit Percale 400 Fils",
+    "brand": "Frette",
+    "category": "linge de maison",
+    "price": 890,
+    "currency": "EUR",
+    "stock": 10,
+    "description_txt": "Parure de lit en percale de coton égyptien 400 fils, ourlet à jours fait main, finition satinée.",
+    "picture": "/assets/frette-parure-lit-percale-400.webp",
+    "tags": ["parure de lit", "percale", "coton égyptien"],
+    "ref": "FR-PERC",
+    "sizes": ["140x200cm", "160x200cm", "180x200cm", "200x200cm"],
+    "colors": [
+      {
+        "name": "Blanc optique",
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Gris perle",
+        "hex": "#D5D5D5"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Serviette de Bain Jacquard Monogram",
+    "brand": "Hermès",
+    "category": "linge de maison",
+    "price": 320,
+    "currency": "EUR",
+    "stock": 14,
+    "description_txt": "Serviette de bain en coton éponge 600g/m² avec motif jacquard cheval H, tissu doux et absorbant.",
+    "picture": "/assets/hermes-serviette-bain-jacquard.webp",
+    "tags": ["serviette", "éponge", "jacquard"],
+    "ref": "HM-SERV",
+    "sizes": ["70x140cm"],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Orange Hermès",
+        "hex": "#E8650A"
+      },
+      {
+        "name": "Marine",
+        "hex": "#1B2A4A"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Couverture Cachemire Royal",
+    "brand": "Loro Piana",
+    "category": "linge de maison",
+    "price": 2100,
+    "currency": "EUR",
+    "stock": 5,
+    "description_txt": "Plaid en cachemire pur grade A, finitions frangées à la main, douceur incomparable pour les nuits d'hiver.",
+    "picture": "/assets/loropiana-couverture-cachemire-royal.webp",
+    "tags": ["plaid", "cachemire", "luxe"],
+    "ref": "LP-CASHR",
+    "sizes": ["130x180cm"],
+    "colors": [
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      },
+      {
+        "name": "Gris tourterelle",
+        "hex": "#9E9E8A"
+      },
+      {
+        "name": "Bleu nuit",
+        "hex": "#1B2A4A"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Peignoir Éponge Signature",
+    "brand": "Pratesi",
+    "category": "linge de maison",
+    "price": 580,
+    "currency": "EUR",
+    "stock": 8,
+    "description_txt": "Peignoir en éponge de coton égyptien 500g/m² avec broderie signature, ceinture et poches doubles.",
+    "picture": "/assets/pratesi-peignoir-eponge-signature.webp",
+    "tags": ["peignoir", "éponge", "coton"],
+    "ref": "PT-PEGN",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Blanc optique",
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Drap Plat Satin Mercerisé",
+    "brand": "Sferra",
+    "category": "linge de maison",
+    "price": 420,
+    "currency": "EUR",
+    "stock": 12,
+    "description_txt": "Drap plat en coton longue fibre satiné mercerisé, toucher soyeux, ourlet brodé à cheval.",
+    "picture": "/assets/sferra-drap-plat-satin.webp",
+    "tags": ["drap", "satin", "broderie"],
+    "ref": "SF-DRPL",
+    "sizes": ["240x290cm", "270x290cm", "300x290cm"],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Bleu pâle",
+        "hex": "#C5D8E8"
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F2E0C0"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Taie d'Oreiller Brodée Oxford",
+    "brand": "Frette",
+    "category": "linge de maison",
+    "price": 185,
+    "currency": "EUR",
+    "stock": 18,
+    "description_txt": "Taie d'oreiller en coton égyptien 300 fils avec revers Oxford et monogramme brodé à la main.",
+    "picture": "/assets/frette-taie-oreiller-oxford.webp",
+    "tags": ["taie", "broderie", "oxford"],
+    "ref": "FR-TAIL",
+    "sizes": ["50x70cm", "65x65cm"],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#F5F0E8"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Nappe Damassée Fleurs de Lis",
+    "brand": "Anichini",
+    "category": "linge de maison",
+    "price": 680,
+    "currency": "EUR",
+    "stock": 7,
+    "description_txt": "Nappe en lin damassé avec motif Fleurs de Lis tissé, finitions frangées, idéale pour les grandes tablées.",
+    "picture": "/assets/anichini-nappe-damassee-fleurs-de-lis.webp",
+    "tags": ["nappe", "lin", "damassé"],
+    "ref": "AN-NAPP",
+    "sizes": ["160x220cm", "160x260cm", "160x320cm"],
+    "colors": [
+      {
+        "name": "Blanc naturel",
+        "hex": "#F5F2EC"
+      },
+      {
+        "name": "Écru",
+        "hex": "#E8DCC8"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Couette Duvet d'Oie Sibérie",
+    "brand": "Dumas Paris",
+    "category": "linge de maison",
+    "price": 1650,
+    "currency": "EUR",
+    "stock": 4,
+    "description_txt": "Couette en duvet d'oie sibérienne 90% duvet, enveloppe en coton Batiste 400 fils, garnissage 400g/m².",
+    "picture": "/assets/dumas-paris-couette-duvet-oie.webp",
+    "tags": ["couette", "duvet", "oie sibérienne"],
+    "ref": "DP-COUV",
+    "sizes": ["140x200cm", "200x200cm", "220x240cm", "260x240cm"],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#F8F8F8"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Plaid Mohair & Soie",
+    "brand": "Johnstons of Elgin",
+    "category": "linge de maison",
+    "price": 490,
+    "currency": "EUR",
+    "stock": 9,
+    "description_txt": "Plaid en mélange mohair et soie, légèreté incomparable et chaleur naturelle, fabriqué en Écosse depuis 1797.",
+    "picture": "/assets/johnstons-plaid-mohair-soie.webp",
+    "tags": ["plaid", "mohair", "soie"],
+    "ref": "JE-MOHA",
+    "sizes": ["140x185cm"],
+    "colors": [
+      {
+        "name": "Camel",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Rose poudré",
+        "hex": "#E8B4B8"
+      },
+      {
+        "name": "Gris perle",
+        "hex": "#C5C5C5"
+      },
+      {
+        "name": "Vert sauge",
+        "hex": "#8A9E85"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Serviettes de Table Brodées",
+    "brand": "Anichini",
+    "category": "linge de maison",
+    "price": 220,
+    "currency": "EUR",
+    "stock": 22,
+    "description_txt": "Lot de 6 serviettes en lin pur 260g/m² avec bordures brodées à jour fait main, finition ourlet roulé.",
+    "picture": "/assets/anichini-serviettes-table-brodees.webp",
+    "tags": ["serviette de table", "lin", "broderie"],
+    "ref": "AN-SERV",
+    "sizes": ["45x45cm"],
+    "colors": [
+      {
+        "name": "Blanc naturel",
+        "hex": "#F5F2EC"
+      },
+      {
+        "name": "Écru",
+        "hex": "#E8DCC8"
+      },
+      {
+        "name": "Bleu ciel",
+        "hex": "#A8C8E0"
+      }
     ]
   }
 ]

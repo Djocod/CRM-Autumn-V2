@@ -13,9 +13,14 @@ export async function showAllUsers() {
 }
 
 // // Function for find user by name
-export async function findUserByLastName(lastName) {
-  const users =
-    await sql`SELECT * FROM users WHERE last_name ILIKE ${"%" + lastName + "%"}`;
+export async function findUserBySearch(search = "") {
+  const term = "%" + search + "%";
+  const users = await sql`
+    SELECT * FROM users 
+    WHERE last_name ILIKE ${term}  OR 
+    first_name ILIKE ${term} OR 
+    md5 ILIKE ${term}
+     `;
   return users;
 }
 

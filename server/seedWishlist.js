@@ -7,7 +7,6 @@ export async function createTableWishlist() {
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   product_id UUID,
-  amount DECIMAL(10,2),
   created_at TIMESTAMP DEFAULT NOW()
   );`;
   console.log("Tables Wishlist Créées !");

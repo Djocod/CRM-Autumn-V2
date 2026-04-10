@@ -1,7 +1,7 @@
 import {
-  findUserByLastName,
   showAllUsers,
   findUserById,
+  findUserBySearch,
   // addPurchasedProduct,
   // addViewedProduct,
   // deletePurchasedProduct,
@@ -23,15 +23,17 @@ export async function handleGetAllUser(req, res, next) {
 }
 
 // Get user by Name
-export async function handleGetUser(req, res, next) {
+export async function handleGetUserSearch(req, res, next) {
   try {
-    const { lastname } = req.params;
-    if (!lastname) {
+    const { search } = req.query;
+
+    if (!search) {
       return res.status(400).json({
-        message: "Missing user last name",
+        message: "Missing user name",
       });
     }
-    const user = await findUserByLastName(lastname);
+
+    const user = await findUserBySearch(search);
     if (!user) throw new ApiError(404, "User not found", "USER_NOT_FOUND");
 
     return res.status(200).json({ success: true, user });
