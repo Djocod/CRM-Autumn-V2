@@ -1,4 +1,4 @@
-import { listProducts, getProductByBrand } from "./products.service.js";
+import { listProducts, getProductBySearch } from "./products.service.js";
 
 // ============== Function ==============
 // Get all Products
@@ -12,20 +12,20 @@ export async function handleListProducts(req, res) {
 }
 
 // Get Products by brand name
-export async function handleGetProductsByBrand(req, res, next) {
+export async function handleGetProductsBySearch(req, res, next) {
   try {
-    const { brand } = req.query;
-    if (!brand) {
-      return res.status(400).json({ message: "Missing product Brand" });
+    const { search } = req.query;
+    if (!search) {
+      return res.status(400).json({ message: "Missing product" });
     }
 
-    const product = await getProductByBrand(brand);
-    if (!product) {
+    const products = await getProductBySearch(search);
+    if (!products) {
       return res.status(404).json({ message: "Product not found !" });
     }
 
-    return res.status(200).json({ product });
-  } catch (error) {
+    return res.status(200).json({ success: true, products });
+  } catch (err) {
     next(err);
   }
 }

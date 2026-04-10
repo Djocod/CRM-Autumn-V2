@@ -1,13 +1,13 @@
 import { Router } from "express";
 import {
-  handleGetProductsByBrand,
+  handleGetProductsBySearch,
   handleListProducts,
 } from "./products.controller.js";
 
 const routerProducts = Router();
 // READ
 routerProducts.get("/", handleListProducts);
-routerProducts.get("/search", handleGetProductsByBrand);
+routerProducts.get("/search", handleGetProductsBySearch);
 
 // // PATCH
 // routerProducts.patch("/:productId/purchase", handlePatchBuyProducts);

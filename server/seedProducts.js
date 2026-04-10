@@ -16,7 +16,7 @@ export async function createTablesProducts() {
   tags              VARCHAR(100),
   ref               VARCHAR(50),
   sizes             VARCHAR(100),
-  colors            VARCHAR(100),
+  colors            VARCHAR(100) ,
   created_at        TIMESTAMP DEFAULT NOW(),
   updated_at        TIMESTAMP DEFAULT NOW()
   );

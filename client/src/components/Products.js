@@ -5,22 +5,25 @@ import ProductCard from "./Folder.Product/ProductCard.js";
 const Products = () => {
   const [productsData, setProductsData] = useState([]);
   const [brandName, setBrandName] = useState("");
-  console.log(productsData, brandName);
 
   useEffect(() => {
-    if (brandName) {
+    if (brandName.length > 0) {
       axios
-        .get(`http://localhost:8000/api/product/search?brand=${brandName}`)
+        .get(`http://localhost:8000/api/products/search?search=${brandName}`)
         .then((res) => setProductsData(res.data.products));
     } else {
       axios
-        .get(`http://localhost:8000/api/product`)
+        .get(`http://localhost:8000/api/products`)
         .then((res) => setProductsData(res.data.products));
     }
   }, [brandName]);
 
   return (
     <div className="card-product-container">
+      {productsData &&
+        productsData
+          .sort((a, b) => a.brand.localeCompare(b.brand))
+          .map((product) => <ProductCard key={product.id} product={product} />)}
       <div className="input-container">
         <i className="fa-brands fa-sistrix"></i>
         <input
@@ -31,10 +34,6 @@ const Products = () => {
           onChange={(e) => setBrandName(e.target.value.toLowerCase())}
         />
       </div>
-      {productsData &&
-        productsData
-          .sort((a, b) => a.brand.localeCompare(b.brand))
-          .map((product) => <ProductCard key={product.id} product={product} />)}
     </div>
   );
 };

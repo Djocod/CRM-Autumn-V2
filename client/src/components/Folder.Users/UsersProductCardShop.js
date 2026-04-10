@@ -21,7 +21,7 @@ const UsersProductCardShop = ({ item, typeSection }) => {
     }
 
     axios
-      .get(`http://localhost:8000/api/product`)
+      .get(`http://localhost:8000/api/products`)
       .then((res) => setValueItem(res.data.products));
   }, [typeSection]);
 

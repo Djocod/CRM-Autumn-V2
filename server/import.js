@@ -66,6 +66,7 @@ async function importData() {
   console.log("Import terminé !");
   process.exit();
 }
+
 importData().catch(console.error);
 
 // // ==========================================

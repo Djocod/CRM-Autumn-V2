@@ -4,11 +4,11 @@ import UsersCard from "./Folder.Users/UsersCard";
 const Users = () => {
   const [usersData, setUsersData] = useState([]);
   const [userName, setUserName] = useState("");
-  console.log(usersData, userName, "Depuis Users");
+  // console.log(usersData, userName, "Depuis Users");
   useEffect(() => {
     if (userName.length > 0) {
       axios
-        .get(`http://localhost:8000/api/users/search/${userName}`)
+        .get(`http://localhost:8000/api/users/search?search=${userName}`)
         .then((res) => setUsersData(res.data.user));
     } else {
       axios

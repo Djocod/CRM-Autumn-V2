@@ -1,16 +1,16 @@
 import { Router } from "express";
 import {
   handleGetAllUser,
-  handleGetUser,
   handleGetUserById,
+  handleGetUserSearch,
 } from "./users.controller.js";
 const router = Router();
 
 //Forme API REST
 //Read
 router.get("/", handleGetAllUser);
+router.get("/search", handleGetUserSearch);
 router.get("/:id", handleGetUserById);
-router.get("/search/:lastname", handleGetUser);
 // //Post
 // router.post("/sessionType/:productId/purchases", handlePatchBuyProducts);
 // router.post("/:porductId/viewed", handlePatchViewProducts);
