@@ -55,7 +55,7 @@ const Navigation = () => {
           Sélections
         </NavLink>
       </li>
-      {
+      {/* {
         <li className="nav-item">
           <NavLink to={"/Wishlist"}>
             <svg
@@ -73,7 +73,7 @@ const Navigation = () => {
             Wishlist
           </NavLink>
         </li>
-      }
+      } */}
       <li className="nav-item">
         <svg
           xmlns="http://www.w3.org/2000/svg"

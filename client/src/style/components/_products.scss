@@ -1,4 +1,5 @@
-.body-book {
+.body-book,
+.body-wishlist {
   width: 100%;
   padding: 0px 0px 120px;
   margin: 0 auto;
@@ -7,7 +8,8 @@
     padding: 20px 34px 10px;
     width: 100%;
   }
-  .card-product-container {
+  .card-product-container,
+  .card-product-wish {
     padding: 0px 10px;
     display: flex;
     flex-wrap: wrap;

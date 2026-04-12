@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import ProductCard from "./Folder.Product/ProductCard.js";
+import Wishlist from "./Wishlist.js";
 
 const Products = () => {
   const [productsData, setProductsData] = useState([]);
@@ -23,7 +23,8 @@ const Products = () => {
       {productsData &&
         productsData
           .sort((a, b) => a.brand.localeCompare(b.brand))
-          .map((product) => <ProductCard key={product.id} product={product} />)}
+          .map((product) => <Wishlist key={product.id} product={product} />)}
+
       <div className="input-container">
         <i className="fa-brands fa-sistrix"></i>
         <input

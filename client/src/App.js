@@ -4,7 +4,8 @@ import Home from "./pages/Home";
 import ProfilUser from "./components/ProfilUser";
 import Book from "./pages/Book";
 import Profil from "./pages/Profil";
-import Wishlist from "./pages/Wishlist";
+import Wishlist from "./components/Wishlist";
+import ProfilWish from "./components/Folder.wish/ProfilWish";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/Book" element={<Book />} />
         <Route path="/Wishlist" element={<Wishlist />} />
         <Route path="/users/:id" element={<ProfilUser />} />
+        <Route path="/wishlist/:id" element={<ProfilWish />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>

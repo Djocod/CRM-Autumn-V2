@@ -11,7 +11,6 @@
 }
 
 body {
-  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -375,6 +374,16 @@ span {
   height: 32px;
   aspect-ratio: 1/1;
   border-radius: 100%;
+}
+
+.body-wishlist {
+  width: 100%;
+  padding: 0px 0px 120px;
+  margin: 0 auto;
+}
+.body-wishlist h2 {
+  padding: 20px 34px 10px;
+  width: 100%;
 }
 
 .nav-bar {
@@ -848,16 +857,21 @@ span {
           flex-direction: column;
 }
 
-.body-book {
+.body-book,
+.body-wishlist {
   width: 100%;
   padding: 0px 0px 120px;
   margin: 0 auto;
 }
-.body-book h2 {
+.body-book h2,
+.body-wishlist h2 {
   padding: 20px 34px 10px;
   width: 100%;
 }
-.body-book .card-product-container {
+.body-book .card-product-container,
+.body-book .card-product-wish,
+.body-wishlist .card-product-container,
+.body-wishlist .card-product-wish {
   padding: 0px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -872,7 +886,10 @@ span {
           align-items: center;
   width: 100%;
 }
-.body-book .card-product-container .input-container {
+.body-book .card-product-container .input-container,
+.body-book .card-product-wish .input-container,
+.body-wishlist .card-product-container .input-container,
+.body-wishlist .card-product-wish .input-container {
   z-index: 2;
   position: fixed;
   left: 0;
@@ -892,13 +909,19 @@ span {
           box-shadow: inset 1px 1px 10px 0px rgba(104, 104, 104, 0.1);
   background: rgb(255, 255, 255);
 }
-.body-book .card-product-container .input-container .fa-sistrix {
+.body-book .card-product-container .input-container .fa-sistrix,
+.body-book .card-product-wish .input-container .fa-sistrix,
+.body-wishlist .card-product-container .input-container .fa-sistrix,
+.body-wishlist .card-product-wish .input-container .fa-sistrix {
   font-size: 1rem;
   margin: auto 0px auto 20px;
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .input-container .input-search {
+.body-book .card-product-container .input-container .input-search,
+.body-book .card-product-wish .input-container .input-search,
+.body-wishlist .card-product-container .input-container .input-search,
+.body-wishlist .card-product-wish .input-container .input-search {
   padding: 11px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -908,27 +931,33 @@ span {
   background: transparent;
   outline: none;
 }
-.body-book .card-product-container .input-container .input-search::-webkit-input-placeholder {
+.body-book .card-product-container .input-container .input-search::-webkit-input-placeholder, .body-book .card-product-wish .input-container .input-search::-webkit-input-placeholder, .body-wishlist .card-product-container .input-container .input-search::-webkit-input-placeholder, .body-wishlist .card-product-wish .input-container .input-search::-webkit-input-placeholder {
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .input-container .input-search::-moz-placeholder {
+.body-book .card-product-container .input-container .input-search::-moz-placeholder, .body-book .card-product-wish .input-container .input-search::-moz-placeholder, .body-wishlist .card-product-container .input-container .input-search::-moz-placeholder, .body-wishlist .card-product-wish .input-container .input-search::-moz-placeholder {
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .input-container .input-search:-ms-input-placeholder {
+.body-book .card-product-container .input-container .input-search:-ms-input-placeholder, .body-book .card-product-wish .input-container .input-search:-ms-input-placeholder, .body-wishlist .card-product-container .input-container .input-search:-ms-input-placeholder, .body-wishlist .card-product-wish .input-container .input-search:-ms-input-placeholder {
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .input-container .input-search::-ms-input-placeholder {
+.body-book .card-product-container .input-container .input-search::-ms-input-placeholder, .body-book .card-product-wish .input-container .input-search::-ms-input-placeholder, .body-wishlist .card-product-container .input-container .input-search::-ms-input-placeholder, .body-wishlist .card-product-wish .input-container .input-search::-ms-input-placeholder {
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .input-container .input-search::placeholder {
+.body-book .card-product-container .input-container .input-search::placeholder,
+.body-book .card-product-wish .input-container .input-search::placeholder,
+.body-wishlist .card-product-container .input-container .input-search::placeholder,
+.body-wishlist .card-product-wish .input-container .input-search::placeholder {
   color: black;
   opacity: 0.7;
 }
-.body-book .card-product-container .card-product {
+.body-book .card-product-container .card-product,
+.body-book .card-product-wish .card-product,
+.body-wishlist .card-product-container .card-product,
+.body-wishlist .card-product-wish .card-product {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -940,7 +969,10 @@ span {
   margin: 8px 0px;
   gap: 16px;
 }
-.body-book .card-product-container .card-product .product-card-book {
+.body-book .card-product-container .card-product .product-card-book,
+.body-book .card-product-wish .card-product .product-card-book,
+.body-wishlist .card-product-container .card-product .product-card-book,
+.body-wishlist .card-product-wish .card-product .product-card-book {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -954,11 +986,17 @@ span {
   gap: 16px;
   margin: 8px 0px;
 }
-.body-book .card-product-container .card-product .product-card-book .img-container {
+.body-book .card-product-container .card-product .product-card-book .img-container,
+.body-book .card-product-wish .card-product .product-card-book .img-container,
+.body-wishlist .card-product-container .card-product .product-card-book .img-container,
+.body-wishlist .card-product-wish .card-product .product-card-book .img-container {
   width: 100%;
   position: relative;
 }
-.body-book .card-product-container .card-product .product-card-book .img-container .img-product {
+.body-book .card-product-container .card-product .product-card-book .img-container .img-product,
+.body-book .card-product-wish .card-product .product-card-book .img-container .img-product,
+.body-wishlist .card-product-container .card-product .product-card-book .img-container .img-product,
+.body-wishlist .card-product-wish .card-product .product-card-book .img-container .img-product {
   height: 200px;
   width: 100%;
   -o-object-fit: cover;
@@ -966,7 +1004,10 @@ span {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
-.body-book .card-product-container .card-product .product-card-book .img-container .add-wishlist {
+.body-book .card-product-container .card-product .product-card-book .img-container .add-wishlist,
+.body-book .card-product-wish .card-product .product-card-book .img-container .add-wishlist,
+.body-wishlist .card-product-container .card-product .product-card-book .img-container .add-wishlist,
+.body-wishlist .card-product-wish .card-product .product-card-book .img-container .add-wishlist {
   position: absolute;
   top: 16px;
   right: 0;
@@ -976,10 +1017,16 @@ span {
   display: grid;
   place-content: center;
 }
-.body-book .card-product-container .card-product .product-card-book .img-container .styleLikeBtn path {
+.body-book .card-product-container .card-product .product-card-book .img-container .styleLikeBtn path,
+.body-book .card-product-wish .card-product .product-card-book .img-container .styleLikeBtn path,
+.body-wishlist .card-product-container .card-product .product-card-book .img-container .styleLikeBtn path,
+.body-wishlist .card-product-wish .card-product .product-card-book .img-container .styleLikeBtn path {
   fill: #f58625;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container {
+.body-book .card-product-container .card-product .product-card-book .description-container,
+.body-book .card-product-wish .card-product .product-card-book .description-container,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -991,7 +1038,10 @@ span {
           align-items: center;
   width: 100%;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1000,48 +1050,75 @@ span {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .product-name {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .product-name,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .product-name,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .product-name,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .product-name {
   text-overflow: ellipsis;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left span {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left span,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left span,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left span,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left span {
   padding: 2px 0px;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .price {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .price,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .price,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .price,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .price {
   font-size: 10px;
   width: auto;
   color: #25272c;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .span-snr,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .shop {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .shop,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .shop,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .shop,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .shop {
   color: #318510;
   border: 1px solid #bce4ac;
   background: #f8fdf7;
   padding: 0px 4px;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .net {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .net,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .net,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .net,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .net {
   color: #0075ca;
   border: 1px solid #abcbe3;
   background: #f5fbff;
   padding: 0px 4px;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .refund {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .refund,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .refund,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .span-snr .refund,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .span-snr .refund {
   color: #b46017;
   border: 1px solid #e8cdb5;
   background: #fdf7f2;
   padding: 0px 4px;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .description-left .product-params {
+.body-book .card-product-container .card-product .product-card-book .description-container .description-left .product-params,
+.body-book .card-product-wish .card-product .product-card-book .description-container .description-left .product-params,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .description-left .product-params,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .description-left .product-params {
   color: #25272c;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.body-book .card-product-container .card-product .product-card-book .description-container .price-product {
+.body-book .card-product-container .card-product .product-card-book .description-container .price-product,
+.body-book .card-product-wish .card-product .product-card-book .description-container .price-product,
+.body-wishlist .card-product-container .card-product .product-card-book .description-container .price-product,
+.body-wishlist .card-product-wish .card-product .product-card-book .description-container .price-product {
   color: #25272c;
   font-weight: 600;
 }/*# sourceMappingURL=index.css.map */

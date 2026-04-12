@@ -1,13 +1,21 @@
+import axios from "axios";
 import React, { useRef } from "react";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, user }) => {
   const styleBtn = useRef(null);
   const handleIdWihslist = (PWhislist) => {
     const value = styleBtn.current;
     if (!value) return;
+
     if (styleBtn) {
-      value.classList.toggle("styleLikeBtn");
+      value.classList.add("styleLikeBtn");
       console.log(PWhislist);
+
+      axios
+        .post(`http://localhost:8000/api/wishlist/${user.id}/${PWhislist}`)
+        .then((res) => console.log(res));
+    } else {
+      value.classList.remove("styleLikeBtn");
     }
   };
 
@@ -37,8 +45,11 @@ const ProductCard = ({ product }) => {
         <div className="description-container">
           <div className="description-left">
             <p className="product-name">{product.title}</p>
-            <span>{product.brand}</span>
-            <span>{product.ref}</span>
+            <p>{product.id}</p>
+            <p>{product.brand}</p>
+            <p>{product.ref}</p>
+            <p>{product.category}</p>
+            <p>{product.tags}</p>
             <span className="price">{product.price} €</span>
           </div>
         </div>
